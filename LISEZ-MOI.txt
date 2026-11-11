@@ -1,0 +1,26 @@
+JIV DIGITAL — PORTFOLIO MULTI-PAGES (MAQUETTE)
+
+Le site est organisé en cinq pages séparées :
+- index.html : Accueil
+- a-propos.html : À propos
+- competences.html : Compétences
+- projets.html : Projets
+- contact.html : Contact
+
+INTRO VIDÉO
+- La vidéo A est utilisée comme intro plein écran sur la page d'accueil.
+- Elle démarre en mode muet, avec un bouton « Passer ».
+- Après la fin ou le clic sur « Passer », l'accueil s'affiche.
+- L'intro s'affiche une seule fois par session; le lien « Revoir le film d'introduction » la relance.
+
+PROJETS
+- La page Projets présente Black Market et Qui Market, avec leurs captures et leurs liens.
+- Qui Market est présenté comme une plateforme de démonstration; les commandes sont simulées.
+- Le portfolio est sans photos des fondateurs.
+- Les pages Projets ne contiennent plus les cartes de concepts fictifs ni le lecteur vidéo répété.
+
+CONTACT
+- Les liens de contact ouvrent WhatsApp ou l'e-mail de JIV Digital.
+- Le formulaire Contact prépare un message WhatsApp; rien n'est envoyé sans validation dans WhatsApp.
+
+Avant publication, confirmer la contribution exacte de JIV Digital sur chaque projet et vérifier les textes et coordonnées.
