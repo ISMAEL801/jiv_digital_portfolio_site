@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070a12">
+  <meta name="description" content="JIV Digital — design graphique, sites web, applications et motion design.">
+  <title>Accueil — JIV Digital</title>
+  <script>document.documentElement.classList.add('js');try{if(sessionStorage.getItem('jivIntroSeen')&&!new URLSearchParams(location.search).has('intro'))document.documentElement.classList.add('skip-intro')}catch(e){}</script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Passer au contenu</a>
+  <div class="intro-overlay" id="introOverlay" aria-label="Vidéo d'introduction de JIV Digital">
+    <video class="intro-video" id="introVideo" muted playsinline preload="auto" poster="assets/motion-poster.png"><source src="assets/intro-jiv.mp4" type="video/mp4"></video>
+    <div class="intro-shade"></div>
+    <div class="intro-topline"><a class="intro-brand" href="index.html"><span class="brand-mark">J</span><span>JIV <b>DIGITAL</b></span></a><button class="skip-intro" id="skipIntro" type="button">Passer <span aria-hidden="true">↗</span></button></div>
+    <div class="intro-bottom"><span>INTRODUCTION JIV DIGITAL</span><div class="intro-progress"><span id="introProgress"></span></div></div>
+  </div>
+  <header class="site-header"><div class="nav-wrap">
+    <a class="brand" href="index.html" aria-label="JIV Digital, accueil"><span class="brand-mark">J</span><span class="brand-name">JIV <b>DIGITAL</b></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Ouvrir le menu" aria-expanded="false" type="button"><span></span><span></span></button>
+    <nav class="main-nav" id="mainNav" aria-label="Navigation principale">
+      <a href="index.html" aria-current="page">Accueil</a><a href="a-propos.html">À propos</a><a href="competences.html">Compétences</a><a href="projets.html">Projets</a><a href="contact.html">Contact</a>
+    </nav>
+  </div></header>
+  <main id="contenu">
+    <section class="hero section-shell" id="accueil">
+      <div class="hero-grid wrap">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="eyebrow-line"></span> STUDIO CRÉATIF DIGITAL</p>
+          <h1>Vos idées prennent<br><span>forme en digital.</span></h1>
+          <p class="hero-lede">Du premier croquis au lancement, JIV Digital donne vie à vos projets avec du design, du web, des applications et du motion design.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="https://wa.me/2250170866293?text=Bonjour%20JIV%20Digital%2C%20je%20souhaite%20parler%20d%27un%20projet." target="_blank" rel="noreferrer">Parlons de votre projet <span aria-hidden="true">↗</span></a>
+            <a class="button button-ghost" href="projets.html">Voir les projets <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-note"><span class="status-dot"></span> Une idée forte mérite une présence digitale à sa hauteur.</div>
+        </div>
+        <div class="hero-art reveal" aria-label="Composition digitale JIV Digital">
+          <div class="art-halo halo-one"></div><div class="art-halo halo-two"></div><div class="art-ring ring-one"></div><div class="art-ring ring-two"></div>
+          <div class="art-window window-back"><div class="window-top"><i></i><i></i><i></i><span>JIV / STUDIO</span></div><div class="window-lines"><b></b><b></b><b></b></div><div class="window-block"></div></div>
+          <div class="art-phone"><div class="phone-speaker"></div><div class="phone-screen"><span class="phone-kicker">IDÉE → IMPACT</span><strong>JIV<br><em>DIGITAL</em></strong><div class="phone-bars"><i></i><i></i><i></i></div><div class="phone-button"></div></div></div>
+          <div class="floating-chip chip-web"><span class="chip-icon">&lt;/&gt;</span><span><b>Digital</b><small>qui vous ressemble</small></span></div>
+          <div class="floating-chip chip-motion"><span class="play-icon">▶</span><span><b>En mouvement</b><small>chaque idée compte</small></span></div>
+          <div class="art-cross cross-one"></div><div class="art-cross cross-two"></div><div class="art-caption">CRÉER · CONCEVOIR · LANCER</div>
+        </div>
+      </div>
+      <div class="hero-bottom wrap"><span>01 / 05</span><span class="hero-bottom-line"></span><a href="a-propos.html">Découvrir JIV Digital <span aria-hidden="true">→</span></a></div>
+    </section>
+    <section class="home-next"><div class="wrap home-next-grid">
+      <div class="home-next-copy reveal"><p class="eyebrow"><span class="eyebrow-line"></span> DU CONCEPT AU DIGITAL</p><h2>Un studio.<br><span>Quatre expertises.</span></h2><p>Découvrez notre approche, nos compétences et les concepts créatifs qui donnent un aperçu de l’univers JIV Digital.</p><a class="text-link" href="a-propos.html">En savoir plus sur le studio <span>↗</span></a></div>
+      <div class="home-link-stack reveal"><a href="competences.html"><span class="stack-num">01</span><span><b>Compétences</b><small>Design, web, applications et motion</small></span><i>↗</i></a><a href="projets.html"><span class="stack-num">02</span><span><b>Projets</b><small>Parcourir les concepts de démonstration</small></span><i>↗</i></a><a href="contact.html"><span class="stack-num">03</span><span><b>Contact</b><small>Parlons de votre prochaine idée</small></span><i>↗</i></a></div>
+    </div></section>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-inner"><a class="brand" href="index.html"><span class="brand-mark">J</span><span class="brand-name">JIV <b>DIGITAL</b></span></a><p>Vos idées prennent forme en digital.</p><a class="back-top" href="#accueil">Retour en haut <span>↑</span></a></div><div class="wrap footer-bottom"><span>© <span id="year"></span> JIV Digital</span><a href="index.html?intro=1">Revoir le film d’introduction</a><span>Design · Web · Applications · Motion</span></div></footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
